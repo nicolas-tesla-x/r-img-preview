@@ -1,0 +1,23 @@
+{
+  "name": "r-img-preview",
+  "version": "0.1.0",
+  "description": "> A Vue.js project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renzhao1113/r-img-preview.git"
+  },
+  "author": "renzhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renzhao1113/r-img-preview/issues"
+  },
+  "homepage": "https://github.com/renzhao1113/r-img-preview#readme",
+  "keywords": [
+    "image",
+    "preview"
+  ]
+}

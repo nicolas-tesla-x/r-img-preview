@@ -2,20 +2,28 @@
 
 > A Vue.js project
 
-## Build Setup
 
-``` bash
-# install dependencies
-npm install
+# 安装
 
-# serve with hot reload at localhost:8080
-npm run dev
+下载 **r-img-preview** 至自己项目的 **node_nodules** 之中
 
-# build for production with minification
-npm run build
+## 使用
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+在 **main.js** 中引入 **preview**
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+如：
+
+`import imgPreview from 'r-img-preview'`
+
+`Vue.use(imgPreview)`
+
+
+用 `<img-preview>` 标签代替 `<img>` 标签
+
+`<img-preview :imgs="imgs"></img-preview>`
+
+# API
+
+| API   | description                   |
+|-------|-------------------------------|
+| imgs  | 图片的src属性值,是一个字符串数组  |
