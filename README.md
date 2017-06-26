@@ -5,7 +5,7 @@
 
 # 安装
 
-下载 **r-img-preview** 至自己项目的 **node_nodules** 之中
+下载 **r-img-preview** 至自己项目的 **node_modules** 之中
 
 ## 使用
 
@@ -18,7 +18,7 @@
 `Vue.use(imgPreview)`
 
 
-用 `<img-preview>` 标签代替 `<img>` 标签
+在需要图片预览的位置用 `<img-preview>` 标签代替 `<img>` 标签
 
 `<img-preview :imgs="imgs"></img-preview>`
 
@@ -26,4 +26,4 @@
 
 | API   | description                   |
 |-------|-------------------------------|
-| imgs  | 图片的src属性值,是一个字符串数组  |
+| imgs  |  图片的src属性值,是一个字符串数组 |
